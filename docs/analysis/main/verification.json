@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-26T15:28:31+09:00",
+  "status": "pass",
+  "scope": "analysis reports and original preservation only; no application tests",
+  "original_files_checked": 58,
+  "local_links_checked": 25,
+  "reports": [
+    {
+      "path": "docs/TEAM_PLAN.md",
+      "lines": 67
+    },
+    {
+      "path": "docs/TEAM_STATUS.md",
+      "lines": 53
+    },
+    {
+      "path": "docs/WEBSITE_ANALYSIS_REPORT.md",
+      "lines": 103
+    },
+    {
+      "path": "docs/analysis/MENU_CONTENT_AUDIT.md",
+      "lines": 158
+    },
+    {
+      "path": "docs/analysis/ASSET_AUDIT.md",
+      "lines": 187
+    },
+    {
+      "path": "docs/analysis/BUILD_REQUIREMENTS.md",
+      "lines": 172
+    },
+    {
+      "path": "docs/analysis/main/EXTERNAL_RESEARCH.md",
+      "lines": 24
+    }
+  ],
+  "failures": []
+}

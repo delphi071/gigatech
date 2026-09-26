@@ -1,0 +1,383 @@
+{
+  "source_root": "docs/1.홈페이지 제작관련",
+  "file_count": 58,
+  "total_bytes": 12497033,
+  "extension_counts": {
+    ".hwp": 1,
+    ".ini": 9,
+    ".jpg": 13,
+    ".pdf": 1,
+    ".png": 17,
+    ".pptx": 2,
+    ".txt": 4,
+    ".xlsx": 4,
+    ".zip": 7
+  },
+  "exact_duplicate_groups": [
+    [
+      "docs/1.홈페이지 제작관련/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/성능점검/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/desktop.ini",
+      "docs/1.홈페이지 제작관련/홈페이지 수정자료/desktop.ini"
+    ],
+    [
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png"
+    ]
+  ],
+  "files": [
+    {
+      "path": "docs/1.홈페이지 제작관련/(예시) 페이지 메뉴 구성안 (예시).xlsx",
+      "bytes": 178975,
+      "extension": ".xlsx",
+      "sha256": "f652fdb968d190b6be77473bde74d1be16d34a1d2d65ed8cb943727e55f65853"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/~$디자인중.xlsx",
+      "bytes": 165,
+      "extension": ".xlsx",
+      "sha256": "4da744bb7baf9fd7ac897c651f2b4e9b2c1162f4bbc08d8cb22d81950339f0ce"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/1.txt",
+      "bytes": 953,
+      "extension": ".txt",
+      "sha256": "d0635be718550e934e40c67dd074acec37c134e5e2f41f6ccaf1c6cf9a0f93d8"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/견적요청양식.PNG",
+      "bytes": 41679,
+      "extension": ".png",
+      "sha256": "3daf2fd60106bab0fcaf08eb267243a6d4824bfd44873eb71218dac54f07f08c"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/고객요청양식.PNG",
+      "bytes": 42829,
+      "extension": ".png",
+      "sha256": "929a1e8ba0e6f290d02811d0bfba40918f25886ed6671f9e79d1435cba273f39"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식.zip",
+      "bytes": 68713,
+      "extension": ".zip",
+      "sha256": "9d7918178ea0d298a57fcc4f851359ddb622874d92a2df84086749ed87fea7d3"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/기계설비의 기술및유지관리기준준수.PNG",
+      "bytes": 104423,
+      "extension": ".png",
+      "sha256": "4b659268e6155c8dca7b497644d18d97c061a3f7d75c1d588361aabd42039631"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/법위반 행정조치사항.PNG",
+      "bytes": 75785,
+      "extension": ".png",
+      "sha256": "23339b3e13c145280cc97de793729f4713d8e90153aa966c139bb4818123b820"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항.zip",
+      "bytes": 167330,
+      "extension": ".zip",
+      "sha256": "53c5c6aa77604445a069b651bcf50932dcfd6413ff35f5f2eb6159f85710487e"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/건축물 수명연장.png",
+      "bytes": 6448,
+      "extension": ".png",
+      "sha256": "518e6b91e753654cad41f15f8c7c1e5acaf179afa95fb4db9a2398dfbfc139c0"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/공기조화설비.jpg",
+      "bytes": 128419,
+      "extension": ".jpg",
+      "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/급수 급탕설비.jpg",
+      "bytes": 102137,
+      "extension": ".jpg",
+      "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비란.PNG",
+      "bytes": 56450,
+      "extension": ".png",
+      "sha256": "6bbad8eae437128053aa7ba191d390c13573f6912302bf471ed7359e245dcda7"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비의 범위.PNG",
+      "bytes": 963945,
+      "extension": ".png",
+      "sha256": "f5e16acf65f08987e15504600bf06ee9d1f34ad032bfa627e7aa257a70e8db42"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/덕트설비.jpg",
+      "bytes": 99102,
+      "extension": ".jpg",
+      "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/방음 방진 내진 설비.jpg",
+      "bytes": 586351,
+      "extension": ".jpg",
+      "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/배관설비.jpg",
+      "bytes": 72176,
+      "extension": ".jpg",
+      "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/보온설비.jpg",
+      "bytes": 54525,
+      "extension": ".jpg",
+      "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/에너지절약.png",
+      "bytes": 6050,
+      "extension": ".png",
+      "sha256": "186ddfe6728d5e738bfe81491618c6ec3a70a1e48f735e1a9c5b747c53c1f8b3"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/열원 냉난방설비.jpg",
+      "bytes": 111937,
+      "extension": ".jpg",
+      "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오 배수 통기 우수배수설비.jpg",
+      "bytes": 112809,
+      "extension": ".jpg",
+      "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오수정화 및 물재이용설비.jpg",
+      "bytes": 164727,
+      "extension": ".jpg",
+      "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/위생기구설비.jpg",
+      "bytes": 111691,
+      "extension": ".jpg",
+      "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/자동제어설비.jpg",
+      "bytes": 120986,
+      "extension": ".jpg",
+      "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/전문적인 기계설비.png",
+      "bytes": 8991,
+      "extension": ".png",
+      "sha256": "5d84f2f037d96378a049fb50d973442bb404e984bb3da0b5f458555dbbf12776"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/쾌적하고 안전한 생활환경.png",
+      "bytes": 5001,
+      "extension": ".png",
+      "sha256": "d31b7ea589a4dcf0cc609ea45a0f73092271a90d59e48fb245a786c36cd1ea4c"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/환기설비.jpg",
+      "bytes": 130680,
+      "extension": ".jpg",
+      "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip",
+      "bytes": 2802867,
+      "extension": ".zip",
+      "sha256": "b7552a2d353df9266adba459ab96e0803f43a92ac9c0ca713137fdd9f51da2fd"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/성능점검/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 검토사항.PNG",
+      "bytes": 70727,
+      "extension": ".png",
+      "sha256": "9a170cd6a432cd0587764105e5a819f2295f6cbe4a1f948acb82566c7b7d8ce5"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 대행절차.PNG",
+      "bytes": 354761,
+      "extension": ".png",
+      "sha256": "2d57e4d1bce9b183ae1bb71cfa954a6db04ccec76a2ff7a1800f4d0aa82c979b"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/성능점검.zip",
+      "bytes": 402638,
+      "extension": ".zip",
+      "sha256": "b1014cef5b1e93af7d2017126d3cda5b50059c4136bb06a7eeff686ebd09b690"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/인사말.txt",
+      "bytes": 582,
+      "extension": ".txt",
+      "sha256": "5e58c73f49d137adaedbc699f12bedda166aedd7724306e8888ca388c4dfa03c"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/2023학년도 상반기 2차 신입직원 채용 공고.pdf",
+      "bytes": 504268,
+      "extension": ".pdf",
+      "sha256": "a06cb1735b0fd10578e090a87ceb33fde497c751318cdfb38aa97089d2781535"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/기계설비 협회 구인 내용.hwp",
+      "bytes": 26624,
+      "extension": ".hwp",
+      "sha256": "ad0934ad90c1142001edc9b3e1e3a63eeddad48cd69bb61641724a9793b8be97"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진.png",
+      "bytes": 163367,
+      "extension": ".png",
+      "sha256": "103a978305fdfd59b6aec053863b18eab2f901b9bc011d03ad6adf726a192f47"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진2.png",
+      "bytes": 363544,
+      "extension": ".png",
+      "sha256": "c4d1380e844d40c478c97dbc81846121def4488675bdd7c9c9154810932863d6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+      "bytes": 358424,
+      "extension": ".png",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png",
+      "bytes": 358424,
+      "extension": ".png",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/점검이미지.jpg",
+      "bytes": 211566,
+      "extension": ".jpg",
+      "sha256": "7d5ef4e040e45167fae2ca44db0cfd45754a53095410353df88770cb88335a7d"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip",
+      "bytes": 1791632,
+      "extension": ".zip",
+      "sha256": "7542dcfdb3be71c2025e75116b4d411e51282505c069610519d7d8df3b3bd1bb"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip",
+      "bytes": 27391,
+      "extension": ".zip",
+      "sha256": "e5f608c8067d765d9a1c770f03e5969acbb933ebec093b8afcb8ef08d8ee4086"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip",
+      "bytes": 1229427,
+      "extension": ".zip",
+      "sha256": "3480da27954ae1f5964294ca6f8849d2c5e7a27d942d4174bd741069cc323786"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/조직도.pptx",
+      "bytes": 29523,
+      "extension": ".pptx",
+      "sha256": "2633f1aea4ff860c75c5a6f86e91401d973b172f07de22d667c3b745e41858a9"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/디자인중.xlsx",
+      "bytes": 213607,
+      "extension": ".xlsx",
+      "sha256": "6a5fd74e6898ca10d5d664b91f6889e3e0b3f0bb1314b4994c784a4e363f0269"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/조직도.pptx",
+      "bytes": 29627,
+      "extension": ".pptx",
+      "sha256": "5b8ff4154b2fcaf49a868525505bdaa555f83e35d8344e901733ffa8b01b8dc6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/페이지 메뉴 구성안.xlsx",
+      "bytes": 17448,
+      "extension": ".xlsx",
+      "sha256": "30d6e6a7dbf6469a25ad5e0c22224fd97727f2733d5000bdf0e7f70fa72c4b4b"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/홈페이지 수정자료/desktop.ini",
+      "bytes": 105,
+      "extension": ".ini",
+      "sha256": "2681a756ee2978431ee6ab37c3546be0d7d282995583163ba7a4abf9e7539ce6"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/홈페이지 수정자료/로고.png",
+      "bytes": 15753,
+      "extension": ".png",
+      "sha256": "f99c1941337b651ce4778504fbff698afe07501f553fa9ebf7ee60246aef2238"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/홈페이지 수정자료/요청사항.txt",
+      "bytes": 572,
+      "extension": ".txt",
+      "sha256": "507e4208be09934a43f3d1596dd9a7b1319f53193b1e89224ea41233bacd968b"
+    },
+    {
+      "path": "docs/1.홈페이지 제작관련/홈페이지.txt",
+      "bytes": 39,
+      "extension": ".txt",
+      "sha256": "59fc1da9f61f0880e22d4bbf14c51dbbf116b6276d0e1a86b37fe9bbef7ccb9f"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# deps / build
+node_modules/
+.next/
+out/
+build/
+
+# env / secrets
+.env
+.env*.local
+
+# agent tooling (repo에서 제외)
+.agents/
+.codex/
+.claude/
+codex-team/
+AGENTS.md
+
+# OS / office temp junk
+desktop.ini
+**/desktop.ini
+~$*
+*.log
+.DS_Store
+next-env.d.ts

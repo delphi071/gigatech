@@ -1,0 +1,28 @@
+{
+  "pdf": {
+    "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/2023학년도 상반기 2차 신입직원 채용 공고.pdf",
+    "pages": 6,
+    "chars": 6488,
+    "institution": "덕성여자대학교",
+    "period": "2023"
+  },
+  "hwp": {
+    "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/기계설비 협회 구인 내용.hwp",
+    "streams": [
+      "FileHeader",
+      "DocInfo",
+      "\u0005HwpSummaryInformation",
+      "PrvImage",
+      "PrvText",
+      "JScriptVersion",
+      "DefaultJScript",
+      "_LinkDoc",
+      "Section0"
+    ],
+    "compressed": true,
+    "paragraphs": 6,
+    "phone_candidate_match": false,
+    "bucheon_match": false,
+    "gigatech_match": false
+  }
+}

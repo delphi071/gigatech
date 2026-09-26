@@ -1,0 +1,1463 @@
+{
+  "images": [
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/견적요청양식.PNG",
+      "category": "standalone",
+      "sha256": "3daf2fd60106bab0fcaf08eb267243a6d4824bfd44873eb71218dac54f07f08c",
+      "bytes": 41679,
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A001",
+      "derived": "docs/analysis/assets/images/A001.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/고객요청양식.PNG",
+      "category": "standalone",
+      "sha256": "929a1e8ba0e6f290d02811d0bfba40918f25886ed6671f9e79d1435cba273f39",
+      "bytes": 42829,
+      "format": "PNG",
+      "width": 1132,
+      "height": 766,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A002",
+      "derived": "docs/analysis/assets/images/A002.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/기계설비의 기술및유지관리기준준수.PNG",
+      "category": "standalone",
+      "sha256": "4b659268e6155c8dca7b497644d18d97c061a3f7d75c1d588361aabd42039631",
+      "bytes": 104423,
+      "format": "PNG",
+      "width": 1136,
+      "height": 818,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A003",
+      "derived": "docs/analysis/assets/images/A003.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/법위반 행정조치사항.PNG",
+      "category": "standalone",
+      "sha256": "23339b3e13c145280cc97de793729f4713d8e90153aa966c139bb4818123b820",
+      "bytes": 75785,
+      "format": "PNG",
+      "width": 1475,
+      "height": 652,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A004",
+      "derived": "docs/analysis/assets/images/A004.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/건축물 수명연장.png",
+      "category": "standalone",
+      "sha256": "518e6b91e753654cad41f15f8c7c1e5acaf179afa95fb4db9a2398dfbfc139c0",
+      "bytes": 6448,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A005",
+      "derived": "docs/analysis/assets/images/A005.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/공기조화설비.jpg",
+      "category": "standalone",
+      "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0",
+      "bytes": 128419,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A006",
+      "derived": "docs/analysis/assets/images/A006.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/급수 급탕설비.jpg",
+      "category": "standalone",
+      "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3",
+      "bytes": 102137,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A007",
+      "derived": "docs/analysis/assets/images/A007.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비란.PNG",
+      "category": "standalone",
+      "sha256": "6bbad8eae437128053aa7ba191d390c13573f6912302bf471ed7359e245dcda7",
+      "bytes": 56450,
+      "format": "PNG",
+      "width": 986,
+      "height": 825,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A008",
+      "derived": "docs/analysis/assets/images/A008.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비의 범위.PNG",
+      "category": "standalone",
+      "sha256": "f5e16acf65f08987e15504600bf06ee9d1f34ad032bfa627e7aa257a70e8db42",
+      "bytes": 963945,
+      "format": "PNG",
+      "width": 865,
+      "height": 758,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A009",
+      "derived": "docs/analysis/assets/images/A009.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/덕트설비.jpg",
+      "category": "standalone",
+      "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6",
+      "bytes": 99102,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A010",
+      "derived": "docs/analysis/assets/images/A010.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/방음 방진 내진 설비.jpg",
+      "category": "standalone",
+      "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3",
+      "bytes": 586351,
+      "format": "JPEG",
+      "width": 1248,
+      "height": 903,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A011",
+      "derived": "docs/analysis/assets/images/A011.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/배관설비.jpg",
+      "category": "standalone",
+      "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d",
+      "bytes": 72176,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A012",
+      "derived": "docs/analysis/assets/images/A012.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/보온설비.jpg",
+      "category": "standalone",
+      "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5",
+      "bytes": 54525,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A013",
+      "derived": "docs/analysis/assets/images/A013.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/에너지절약.png",
+      "category": "standalone",
+      "sha256": "186ddfe6728d5e738bfe81491618c6ec3a70a1e48f735e1a9c5b747c53c1f8b3",
+      "bytes": 6050,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A014",
+      "derived": "docs/analysis/assets/images/A014.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/열원 냉난방설비.jpg",
+      "category": "standalone",
+      "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146",
+      "bytes": 111937,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A015",
+      "derived": "docs/analysis/assets/images/A015.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오 배수 통기 우수배수설비.jpg",
+      "category": "standalone",
+      "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1",
+      "bytes": 112809,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A016",
+      "derived": "docs/analysis/assets/images/A016.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오수정화 및 물재이용설비.jpg",
+      "category": "standalone",
+      "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b",
+      "bytes": 164727,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A017",
+      "derived": "docs/analysis/assets/images/A017.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/위생기구설비.jpg",
+      "category": "standalone",
+      "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1",
+      "bytes": 111691,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A018",
+      "derived": "docs/analysis/assets/images/A018.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/자동제어설비.jpg",
+      "category": "standalone",
+      "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5",
+      "bytes": 120986,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A019",
+      "derived": "docs/analysis/assets/images/A019.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/전문적인 기계설비.png",
+      "category": "standalone",
+      "sha256": "5d84f2f037d96378a049fb50d973442bb404e984bb3da0b5f458555dbbf12776",
+      "bytes": 8991,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A020",
+      "derived": "docs/analysis/assets/images/A020.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/쾌적하고 안전한 생활환경.png",
+      "category": "standalone",
+      "sha256": "d31b7ea589a4dcf0cc609ea45a0f73092271a90d59e48fb245a786c36cd1ea4c",
+      "bytes": 5001,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A021",
+      "derived": "docs/analysis/assets/images/A021.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/환기설비.jpg",
+      "category": "standalone",
+      "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458",
+      "bytes": 130680,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A022",
+      "derived": "docs/analysis/assets/images/A022.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 검토사항.PNG",
+      "category": "standalone",
+      "sha256": "9a170cd6a432cd0587764105e5a819f2295f6cbe4a1f948acb82566c7b7d8ce5",
+      "bytes": 70727,
+      "format": "PNG",
+      "width": 1886,
+      "height": 816,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A023",
+      "derived": "docs/analysis/assets/images/A023.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 대행절차.PNG",
+      "category": "standalone",
+      "sha256": "2d57e4d1bce9b183ae1bb71cfa954a6db04ccec76a2ff7a1800f4d0aa82c979b",
+      "bytes": 354761,
+      "format": "PNG",
+      "width": 1071,
+      "height": 855,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A024",
+      "derived": "docs/analysis/assets/images/A024.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진.png",
+      "category": "standalone",
+      "sha256": "103a978305fdfd59b6aec053863b18eab2f901b9bc011d03ad6adf726a192f47",
+      "bytes": 163367,
+      "format": "PNG",
+      "width": 966,
+      "height": 406,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A025",
+      "derived": "docs/analysis/assets/images/A025.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진2.png",
+      "category": "standalone",
+      "sha256": "c4d1380e844d40c478c97dbc81846121def4488675bdd7c9c9154810932863d6",
+      "bytes": 363544,
+      "format": "PNG",
+      "width": 1263,
+      "height": 523,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A026",
+      "derived": "docs/analysis/assets/images/A026.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+      "category": "standalone",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+      "bytes": 358424,
+      "format": "PNG",
+      "width": 1264,
+      "height": 532,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A027",
+      "derived": "docs/analysis/assets/images/A027.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png",
+      "category": "standalone",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+      "bytes": 358424,
+      "format": "PNG",
+      "width": 1264,
+      "height": 532,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A027",
+      "derived": "docs/analysis/assets/images/A027.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/점검이미지.jpg",
+      "category": "standalone",
+      "sha256": "7d5ef4e040e45167fae2ca44db0cfd45754a53095410353df88770cb88335a7d",
+      "bytes": 211566,
+      "format": "JPEG",
+      "width": 800,
+      "height": 460,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A028",
+      "derived": "docs/analysis/assets/images/A028.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/홈페이지 수정자료/로고.png",
+      "category": "standalone",
+      "sha256": "f99c1941337b651ce4778504fbff698afe07501f553fa9ebf7ee60246aef2238",
+      "bytes": 15753,
+      "format": "PNG",
+      "width": 1068,
+      "height": 164,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A029",
+      "derived": "docs/analysis/assets/images/A029.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/(예시) 페이지 메뉴 구성안 (예시).xlsx!/xl/media/image1.png",
+      "category": "xlsx_embedded",
+      "sha256": "cc92649559652249a2140d38003fbe71e50a96a89a2c804cf8576821c57620ee",
+      "bytes": 158385,
+      "format": "PNG",
+      "width": 599,
+      "height": 316,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A030",
+      "derived": "docs/analysis/assets/images/A030.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식.zip!/견적요청양식.PNG",
+      "category": "zip",
+      "sha256": "3daf2fd60106bab0fcaf08eb267243a6d4824bfd44873eb71218dac54f07f08c",
+      "bytes": 41679,
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A001",
+      "derived": "docs/analysis/assets/images/A001.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식.zip!/고객요청양식.PNG",
+      "category": "zip",
+      "sha256": "929a1e8ba0e6f290d02811d0bfba40918f25886ed6671f9e79d1435cba273f39",
+      "bytes": 42829,
+      "format": "PNG",
+      "width": 1132,
+      "height": 766,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A002",
+      "derived": "docs/analysis/assets/images/A002.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항.zip!/기계설비의 기술및유지관리기준준수.PNG",
+      "category": "zip",
+      "sha256": "4b659268e6155c8dca7b497644d18d97c061a3f7d75c1d588361aabd42039631",
+      "bytes": 104423,
+      "format": "PNG",
+      "width": 1136,
+      "height": 818,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A003",
+      "derived": "docs/analysis/assets/images/A003.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항.zip!/법위반 행정조치사항.PNG",
+      "category": "zip",
+      "sha256": "23339b3e13c145280cc97de793729f4713d8e90153aa966c139bb4818123b820",
+      "bytes": 75785,
+      "format": "PNG",
+      "width": 1475,
+      "height": 652,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A004",
+      "derived": "docs/analysis/assets/images/A004.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/공기조화설비.jpg",
+      "category": "zip",
+      "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0",
+      "bytes": 128419,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A006",
+      "derived": "docs/analysis/assets/images/A006.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/급수 급탕설비.jpg",
+      "category": "zip",
+      "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3",
+      "bytes": 102137,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A007",
+      "derived": "docs/analysis/assets/images/A007.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/기계설비란.PNG",
+      "category": "zip",
+      "sha256": "6bbad8eae437128053aa7ba191d390c13573f6912302bf471ed7359e245dcda7",
+      "bytes": 56450,
+      "format": "PNG",
+      "width": 986,
+      "height": 825,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A008",
+      "derived": "docs/analysis/assets/images/A008.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/기계설비의 범위.PNG",
+      "category": "zip",
+      "sha256": "f5e16acf65f08987e15504600bf06ee9d1f34ad032bfa627e7aa257a70e8db42",
+      "bytes": 963945,
+      "format": "PNG",
+      "width": 865,
+      "height": 758,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A009",
+      "derived": "docs/analysis/assets/images/A009.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/덕트설비.jpg",
+      "category": "zip",
+      "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6",
+      "bytes": 99102,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A010",
+      "derived": "docs/analysis/assets/images/A010.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/방음 방진 내진 설비.jpg",
+      "category": "zip",
+      "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3",
+      "bytes": 586351,
+      "format": "JPEG",
+      "width": 1248,
+      "height": 903,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A011",
+      "derived": "docs/analysis/assets/images/A011.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/배관설비.jpg",
+      "category": "zip",
+      "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d",
+      "bytes": 72176,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A012",
+      "derived": "docs/analysis/assets/images/A012.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/보온설비.jpg",
+      "category": "zip",
+      "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5",
+      "bytes": 54525,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A013",
+      "derived": "docs/analysis/assets/images/A013.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/열원 냉난방설비.jpg",
+      "category": "zip",
+      "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146",
+      "bytes": 111937,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A015",
+      "derived": "docs/analysis/assets/images/A015.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/오 배수 통기 우수배수설비.jpg",
+      "category": "zip",
+      "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1",
+      "bytes": 112809,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A016",
+      "derived": "docs/analysis/assets/images/A016.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/오수정화 및 물재이용설비.jpg",
+      "category": "zip",
+      "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b",
+      "bytes": 164727,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A017",
+      "derived": "docs/analysis/assets/images/A017.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/위생기구설비.jpg",
+      "category": "zip",
+      "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1",
+      "bytes": 111691,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A018",
+      "derived": "docs/analysis/assets/images/A018.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/자동제어설비.jpg",
+      "category": "zip",
+      "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5",
+      "bytes": 120986,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A019",
+      "derived": "docs/analysis/assets/images/A019.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip!/환기설비.jpg",
+      "category": "zip",
+      "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458",
+      "bytes": 130680,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A022",
+      "derived": "docs/analysis/assets/images/A022.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/성능점검.zip!/성능점검 검토사항.PNG",
+      "category": "zip",
+      "sha256": "9a170cd6a432cd0587764105e5a819f2295f6cbe4a1f948acb82566c7b7d8ce5",
+      "bytes": 70727,
+      "format": "PNG",
+      "width": 1886,
+      "height": 816,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A023",
+      "derived": "docs/analysis/assets/images/A023.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/성능점검.zip!/성능점검 대행절차.PNG",
+      "category": "zip",
+      "sha256": "2d57e4d1bce9b183ae1bb71cfa954a6db04ccec76a2ff7a1800f4d0aa82c979b",
+      "bytes": 354761,
+      "format": "PNG",
+      "width": 1071,
+      "height": 855,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A024",
+      "derived": "docs/analysis/assets/images/A024.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/공기조화설비.jpg",
+      "category": "zip",
+      "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0",
+      "bytes": 128419,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A006",
+      "derived": "docs/analysis/assets/images/A006.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/급수 급탕설비.jpg",
+      "category": "zip",
+      "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3",
+      "bytes": 102137,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A007",
+      "derived": "docs/analysis/assets/images/A007.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/덕트설비.jpg",
+      "category": "zip",
+      "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6",
+      "bytes": 99102,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A010",
+      "derived": "docs/analysis/assets/images/A010.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/방음 방진 내진 설비.jpg",
+      "category": "zip",
+      "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3",
+      "bytes": 586351,
+      "format": "JPEG",
+      "width": 1248,
+      "height": 903,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A011",
+      "derived": "docs/analysis/assets/images/A011.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/배관설비.jpg",
+      "category": "zip",
+      "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d",
+      "bytes": 72176,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A012",
+      "derived": "docs/analysis/assets/images/A012.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/보온설비.jpg",
+      "category": "zip",
+      "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5",
+      "bytes": 54525,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A013",
+      "derived": "docs/analysis/assets/images/A013.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/열원 냉난방설비.jpg",
+      "category": "zip",
+      "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146",
+      "bytes": 111937,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A015",
+      "derived": "docs/analysis/assets/images/A015.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/오 배수 통기 우수배수설비.jpg",
+      "category": "zip",
+      "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1",
+      "bytes": 112809,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A016",
+      "derived": "docs/analysis/assets/images/A016.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/오수정화 및 물재이용설비.jpg",
+      "category": "zip",
+      "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b",
+      "bytes": 164727,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A017",
+      "derived": "docs/analysis/assets/images/A017.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/위생기구설비.jpg",
+      "category": "zip",
+      "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1",
+      "bytes": 111691,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A018",
+      "derived": "docs/analysis/assets/images/A018.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/자동제어설비.jpg",
+      "category": "zip",
+      "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5",
+      "bytes": 120986,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A019",
+      "derived": "docs/analysis/assets/images/A019.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip!/환기설비.jpg",
+      "category": "zip",
+      "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458",
+      "bytes": 130680,
+      "format": "JPEG",
+      "width": 500,
+      "height": 300,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A022",
+      "derived": "docs/analysis/assets/images/A022.jpg"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip!/건축물 수명연장.png",
+      "category": "zip",
+      "sha256": "518e6b91e753654cad41f15f8c7c1e5acaf179afa95fb4db9a2398dfbfc139c0",
+      "bytes": 6448,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A005",
+      "derived": "docs/analysis/assets/images/A005.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip!/에너지절약.png",
+      "category": "zip",
+      "sha256": "186ddfe6728d5e738bfe81491618c6ec3a70a1e48f735e1a9c5b747c53c1f8b3",
+      "bytes": 6050,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A014",
+      "derived": "docs/analysis/assets/images/A014.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip!/전문적인 기계설비.png",
+      "category": "zip",
+      "sha256": "5d84f2f037d96378a049fb50d973442bb404e984bb3da0b5f458555dbbf12776",
+      "bytes": 8991,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A020",
+      "derived": "docs/analysis/assets/images/A020.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip!/쾌적하고 안전한 생활환경.png",
+      "category": "zip",
+      "sha256": "d31b7ea589a4dcf0cc609ea45a0f73092271a90d59e48fb245a786c36cd1ea4c",
+      "bytes": 5001,
+      "format": "PNG",
+      "width": 130,
+      "height": 130,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A021",
+      "derived": "docs/analysis/assets/images/A021.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip!/장비사진.png",
+      "category": "zip",
+      "sha256": "103a978305fdfd59b6aec053863b18eab2f901b9bc011d03ad6adf726a192f47",
+      "bytes": 163367,
+      "format": "PNG",
+      "width": 966,
+      "height": 406,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A025",
+      "derived": "docs/analysis/assets/images/A025.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip!/장비사진2.png",
+      "category": "zip",
+      "sha256": "c4d1380e844d40c478c97dbc81846121def4488675bdd7c9c9154810932863d6",
+      "bytes": 363544,
+      "format": "PNG",
+      "width": 1263,
+      "height": 523,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A026",
+      "derived": "docs/analysis/assets/images/A026.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip!/장비사진3.png",
+      "category": "zip",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+      "bytes": 358424,
+      "format": "PNG",
+      "width": 1264,
+      "height": 532,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A027",
+      "derived": "docs/analysis/assets/images/A027.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip!/장비사진4.png",
+      "category": "zip",
+      "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+      "bytes": 358424,
+      "format": "PNG",
+      "width": 1264,
+      "height": 532,
+      "mode": "RGBA",
+      "transparency": true,
+      "id": "A027",
+      "derived": "docs/analysis/assets/images/A027.png"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/디자인중.xlsx!/xl/media/image1.png",
+      "category": "xlsx_embedded",
+      "sha256": "cc92649559652249a2140d38003fbe71e50a96a89a2c804cf8576821c57620ee",
+      "bytes": 158385,
+      "format": "PNG",
+      "width": 599,
+      "height": 316,
+      "mode": "RGB",
+      "transparency": false,
+      "id": "A030",
+      "derived": "docs/analysis/assets/images/A030.png"
+    }
+  ],
+  "unique_image_count": 30,
+  "archives": [
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "desktop.ini",
+          "bytes": 105,
+          "sha256": "db9b0670475bc6195cf62dccd8d7859926fab7d9305c41313a999529a7150098",
+          "exact_loose_matches": []
+        },
+        {
+          "name": "견적요청양식.PNG",
+          "bytes": 41679,
+          "sha256": "3daf2fd60106bab0fcaf08eb267243a6d4824bfd44873eb71218dac54f07f08c",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/견적요청양식.PNG"
+          ],
+          "image_id": "A001"
+        },
+        {
+          "name": "고객요청양식.PNG",
+          "bytes": 42829,
+          "sha256": "929a1e8ba0e6f290d02811d0bfba40918f25886ed6671f9e79d1435cba273f39",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/고객요청양식.PNG"
+          ],
+          "image_id": "A002"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "desktop.ini",
+          "bytes": 105,
+          "sha256": "db9b0670475bc6195cf62dccd8d7859926fab7d9305c41313a999529a7150098",
+          "exact_loose_matches": []
+        },
+        {
+          "name": "기계설비의 기술및유지관리기준준수.PNG",
+          "bytes": 104423,
+          "sha256": "4b659268e6155c8dca7b497644d18d97c061a3f7d75c1d588361aabd42039631",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/기계설비의 기술및유지관리기준준수.PNG"
+          ],
+          "image_id": "A003"
+        },
+        {
+          "name": "법위반 행정조치사항.PNG",
+          "bytes": 75785,
+          "sha256": "23339b3e13c145280cc97de793729f4713d8e90153aa966c139bb4818123b820",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/법위반 행정조치사항.PNG"
+          ],
+          "image_id": "A004"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "desktop.ini",
+          "bytes": 105,
+          "sha256": "db9b0670475bc6195cf62dccd8d7859926fab7d9305c41313a999529a7150098",
+          "exact_loose_matches": []
+        },
+        {
+          "name": "공기조화설비.jpg",
+          "bytes": 128419,
+          "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/공기조화설비.jpg"
+          ],
+          "image_id": "A006"
+        },
+        {
+          "name": "급수 급탕설비.jpg",
+          "bytes": 102137,
+          "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/급수 급탕설비.jpg"
+          ],
+          "image_id": "A007"
+        },
+        {
+          "name": "기계설비란.PNG",
+          "bytes": 56450,
+          "sha256": "6bbad8eae437128053aa7ba191d390c13573f6912302bf471ed7359e245dcda7",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비란.PNG"
+          ],
+          "image_id": "A008"
+        },
+        {
+          "name": "기계설비의 범위.PNG",
+          "bytes": 963945,
+          "sha256": "f5e16acf65f08987e15504600bf06ee9d1f34ad032bfa627e7aa257a70e8db42",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/기계설비의 범위.PNG"
+          ],
+          "image_id": "A009"
+        },
+        {
+          "name": "덕트설비.jpg",
+          "bytes": 99102,
+          "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/덕트설비.jpg"
+          ],
+          "image_id": "A010"
+        },
+        {
+          "name": "방음 방진 내진 설비.jpg",
+          "bytes": 586351,
+          "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/방음 방진 내진 설비.jpg"
+          ],
+          "image_id": "A011"
+        },
+        {
+          "name": "배관설비.jpg",
+          "bytes": 72176,
+          "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/배관설비.jpg"
+          ],
+          "image_id": "A012"
+        },
+        {
+          "name": "보온설비.jpg",
+          "bytes": 54525,
+          "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/보온설비.jpg"
+          ],
+          "image_id": "A013"
+        },
+        {
+          "name": "열원 냉난방설비.jpg",
+          "bytes": 111937,
+          "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/열원 냉난방설비.jpg"
+          ],
+          "image_id": "A015"
+        },
+        {
+          "name": "오 배수 통기 우수배수설비.jpg",
+          "bytes": 112809,
+          "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오 배수 통기 우수배수설비.jpg"
+          ],
+          "image_id": "A016"
+        },
+        {
+          "name": "오수정화 및 물재이용설비.jpg",
+          "bytes": 164727,
+          "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오수정화 및 물재이용설비.jpg"
+          ],
+          "image_id": "A017"
+        },
+        {
+          "name": "위생기구설비.jpg",
+          "bytes": 111691,
+          "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/위생기구설비.jpg"
+          ],
+          "image_id": "A018"
+        },
+        {
+          "name": "자동제어설비.jpg",
+          "bytes": 120986,
+          "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/자동제어설비.jpg"
+          ],
+          "image_id": "A019"
+        },
+        {
+          "name": "환기설비.jpg",
+          "bytes": 130680,
+          "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/환기설비.jpg"
+          ],
+          "image_id": "A022"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/성능점검.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "desktop.ini",
+          "bytes": 105,
+          "sha256": "db9b0670475bc6195cf62dccd8d7859926fab7d9305c41313a999529a7150098",
+          "exact_loose_matches": []
+        },
+        {
+          "name": "성능점검 검토사항.PNG",
+          "bytes": 70727,
+          "sha256": "9a170cd6a432cd0587764105e5a819f2295f6cbe4a1f948acb82566c7b7d8ce5",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 검토사항.PNG"
+          ],
+          "image_id": "A023"
+        },
+        {
+          "name": "성능점검 대행절차.PNG",
+          "bytes": 354761,
+          "sha256": "2d57e4d1bce9b183ae1bb71cfa954a6db04ccec76a2ff7a1800f4d0aa82c979b",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/성능점검/성능점검 대행절차.PNG"
+          ],
+          "image_id": "A024"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비 성능점검 대상 이미지.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "공기조화설비.jpg",
+          "bytes": 128419,
+          "sha256": "f988600f507716b0c543d73ef67868a81a69b6204f4054411c0830797495dbc0",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/공기조화설비.jpg"
+          ],
+          "image_id": "A006"
+        },
+        {
+          "name": "급수 급탕설비.jpg",
+          "bytes": 102137,
+          "sha256": "a44c8ba473eca6edaf648432e29f35633f865662eeee164c02b11324164976f3",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/급수 급탕설비.jpg"
+          ],
+          "image_id": "A007"
+        },
+        {
+          "name": "덕트설비.jpg",
+          "bytes": 99102,
+          "sha256": "770a4f473e187c7e1af13e54d42bc5817e9ba47a5748555b389034d52e2b8bb6",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/덕트설비.jpg"
+          ],
+          "image_id": "A010"
+        },
+        {
+          "name": "방음 방진 내진 설비.jpg",
+          "bytes": 586351,
+          "sha256": "016bd8bbd868ca1e82f6e7b621c9726c82b21c45ce13124122bbf291842635d3",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/방음 방진 내진 설비.jpg"
+          ],
+          "image_id": "A011"
+        },
+        {
+          "name": "배관설비.jpg",
+          "bytes": 72176,
+          "sha256": "50ae2b8cd29d4a30223ee03a1dce25f5bd05ba2159872411bce4d3063cba790d",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/배관설비.jpg"
+          ],
+          "image_id": "A012"
+        },
+        {
+          "name": "보온설비.jpg",
+          "bytes": 54525,
+          "sha256": "4df248fe6a2b4bd651aa41b3502d14dcda2d2ab2328ad7660a15ccd98c2420d5",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/보온설비.jpg"
+          ],
+          "image_id": "A013"
+        },
+        {
+          "name": "열원 냉난방설비.jpg",
+          "bytes": 111937,
+          "sha256": "13029b264b506282b1d23759341c924c8c1b951c9741dc27116793ea28ccf146",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/열원 냉난방설비.jpg"
+          ],
+          "image_id": "A015"
+        },
+        {
+          "name": "오 배수 통기 우수배수설비.jpg",
+          "bytes": 112809,
+          "sha256": "592252cd5f2a6dd3e77a4bfefefb5583fc9a3d2f913757298385c422d53987c1",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오 배수 통기 우수배수설비.jpg"
+          ],
+          "image_id": "A016"
+        },
+        {
+          "name": "오수정화 및 물재이용설비.jpg",
+          "bytes": 164727,
+          "sha256": "8abc69c85b6aafb12ac0d297a28bf1544cad47723d3a25df5d8e7e27261d544b",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/오수정화 및 물재이용설비.jpg"
+          ],
+          "image_id": "A017"
+        },
+        {
+          "name": "위생기구설비.jpg",
+          "bytes": 111691,
+          "sha256": "8a0b7b14e6a4a30042aefe6087ed6949fd8b30b7227ef88513e348978e0a81a1",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/위생기구설비.jpg"
+          ],
+          "image_id": "A018"
+        },
+        {
+          "name": "자동제어설비.jpg",
+          "bytes": 120986,
+          "sha256": "a8c79dfa842c22a54f0bd47d78812d32650cf54844926ad228a8f6e0e6a6b5b5",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/자동제어설비.jpg"
+          ],
+          "image_id": "A019"
+        },
+        {
+          "name": "환기설비.jpg",
+          "bytes": 130680,
+          "sha256": "af90ab367c975195a0e060ede5f24df8921cfb539f80b59fbc379d7aef41b458",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/환기설비.jpg"
+          ],
+          "image_id": "A022"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/기계설비란 이미지.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "건축물 수명연장.png",
+          "bytes": 6448,
+          "sha256": "518e6b91e753654cad41f15f8c7c1e5acaf179afa95fb4db9a2398dfbfc139c0",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/건축물 수명연장.png"
+          ],
+          "image_id": "A005"
+        },
+        {
+          "name": "에너지절약.png",
+          "bytes": 6050,
+          "sha256": "186ddfe6728d5e738bfe81491618c6ec3a70a1e48f735e1a9c5b747c53c1f8b3",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/에너지절약.png"
+          ],
+          "image_id": "A014"
+        },
+        {
+          "name": "전문적인 기계설비.png",
+          "bytes": 8991,
+          "sha256": "5d84f2f037d96378a049fb50d973442bb404e984bb3da0b5f458555dbbf12776",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/전문적인 기계설비.png"
+          ],
+          "image_id": "A020"
+        },
+        {
+          "name": "쾌적하고 안전한 생활환경.png",
+          "bytes": 5001,
+          "sha256": "d31b7ea589a4dcf0cc609ea45a0f73092271a90d59e48fb245a786c36cd1ea4c",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/쾌적하고 안전한 생활환경.png"
+          ],
+          "image_id": "A021"
+        }
+      ]
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/장비사진.zip",
+      "crc_failure": null,
+      "entries": [
+        {
+          "name": "장비사진.png",
+          "bytes": 163367,
+          "sha256": "103a978305fdfd59b6aec053863b18eab2f901b9bc011d03ad6adf726a192f47",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진.png"
+          ],
+          "image_id": "A025"
+        },
+        {
+          "name": "장비사진2.png",
+          "bytes": 363544,
+          "sha256": "c4d1380e844d40c478c97dbc81846121def4488675bdd7c9c9154810932863d6",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진2.png"
+          ],
+          "image_id": "A026"
+        },
+        {
+          "name": "장비사진3.png",
+          "bytes": 358424,
+          "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png"
+          ],
+          "image_id": "A027"
+        },
+        {
+          "name": "장비사진4.png",
+          "bytes": 358424,
+          "sha256": "caa3ebd478fedd6acc4a7fe29ca3e31b8fc11be1b56808a11556b44381f8e5cf",
+          "exact_loose_matches": [
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+            "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png"
+          ],
+          "image_id": "A027"
+        }
+      ]
+    }
+  ],
+  "presentations": [
+    {
+      "source": "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/조직도.pptx",
+      "slides": [
+        {
+          "part": "ppt/slides/slide1.xml",
+          "text": [
+            "CONTOSO",
+            "조직도",
+            "대표",
+            "경영지원실",
+            "회계 관리팀",
+            "성능점검실",
+            "기계설비점검",
+            "1",
+            "팀",
+            "기계설비점검",
+            "2",
+            "팀",
+            "기계설비점검",
+            "3",
+            "팀",
+            "기계설비점검",
+            "4",
+            "팀",
+            "기술지원실",
+            "기술지원팀",
+            "영업지원실",
+            "영업지원팀",
+            "인사 관리팀",
+            "감사"
+          ]
+        }
+      ],
+      "docProps/core.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>CONTOSO</dc:title><dc:creator>user</dc:creator><cp:lastModifiedBy>user</cp:lastModifiedBy><cp:revision>4</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2023-05-24T01:17:30Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2023-05-30T06:55:58Z</dcterms:modified></cp:coreProperties>",
+      "ppt/presentation.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p:presentation xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" saveSubsetFonts=\"1\" autoCompressPictures=\"0\"><p:sldMasterIdLst><p:sldMasterId id=\"2147484777\" r:id=\"rId1\"/></p:sldMasterIdLst><p:notesMasterIdLst><p:notesMasterId r:id=\"rId3\"/></p:notesMasterIdLst><p:handoutMasterIdLst><p:handoutMasterId r:id=\"rId4\"/></p:handoutMasterIdLst><p:sldIdLst><p:sldId id=\"292\" r:id=\"rId2\"/></p:sldIdLst><p:sldSz cx=\"12192000\" cy=\"6858000\"/><p:notesSz cx=\"6858000\" cy=\"9144000\"/><p:defaultTextStyle><a:defPPr rtl=\"0\"><a:defRPr lang=\"ko-KR\"/></a:defPPr><a:lvl1pPr marL=\"0\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl1pPr><a:lvl2pPr marL=\"457200\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl2pPr><a:lvl3pPr marL=\"914400\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl3pPr><a:lvl4pPr marL=\"1371600\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl4pPr><a:lvl5pPr marL=\"1828800\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl5pPr><a:lvl6pPr marL=\"2286000\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl6pPr><a:lvl7pPr marL=\"2743200\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl7pPr><a:lvl8pPr marL=\"3200400\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl8pPr><a:lvl9pPr marL=\"3657600\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl9pPr></p:defaultTextStyle><p:extLst><p:ext uri=\"{EFAFB233-063F-42B5-8137-9DF3F51BA10A}\"><p15:sldGuideLst xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\"><p15:guide id=\"1\" pos=\"6264\" userDrawn=\"1\"><p15:clr><a:srgbClr val=\"A4A3A4\"/></p15:clr></p15:guide><p15:guide id=\"2\" orient=\"horz\" pos=\"360\" userDrawn=\"1\"><p15:clr><a:srgbClr val=\"A4A3A4\"/></p15:clr></p15:guide></p15:sldGuideLst></p:ext><p:ext uri=\"{2D200454-40CA-4A62-9FC3-DE9A4176ACB9}\"><p15:notesGuideLst xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\"/></p:ext></p:extLst></p:presentation>"
+    },
+    {
+      "source": "docs/1.홈페이지 제작관련/조직도.pptx",
+      "slides": [
+        {
+          "part": "ppt/slides/slide1.xml",
+          "text": [
+            "CONTOSO",
+            "조직도",
+            "대표",
+            "경영지원실",
+            "회계 관리팀",
+            "성능점검실",
+            "기계설비점검",
+            "1",
+            "팀",
+            "기계설비점검",
+            "2",
+            "팀",
+            "기계설비점검",
+            "3",
+            "팀",
+            "기계설비점검",
+            "4",
+            "팀",
+            "기술지원실",
+            "기술지원팀",
+            "영업지원실",
+            "영업지원팀",
+            "인사 관리실",
+            "인사 관리팀",
+            "감사"
+          ]
+        }
+      ],
+      "docProps/core.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>CONTOSO</dc:title><dc:creator>user</dc:creator><cp:lastModifiedBy>user</cp:lastModifiedBy><cp:revision>3</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2023-05-24T01:17:30Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2023-05-30T06:53:10Z</dcterms:modified></cp:coreProperties>",
+      "ppt/presentation.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p:presentation xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" saveSubsetFonts=\"1\" autoCompressPictures=\"0\"><p:sldMasterIdLst><p:sldMasterId id=\"2147484777\" r:id=\"rId1\"/></p:sldMasterIdLst><p:notesMasterIdLst><p:notesMasterId r:id=\"rId3\"/></p:notesMasterIdLst><p:handoutMasterIdLst><p:handoutMasterId r:id=\"rId4\"/></p:handoutMasterIdLst><p:sldIdLst><p:sldId id=\"292\" r:id=\"rId2\"/></p:sldIdLst><p:sldSz cx=\"12192000\" cy=\"6858000\"/><p:notesSz cx=\"6858000\" cy=\"9144000\"/><p:defaultTextStyle><a:defPPr rtl=\"0\"><a:defRPr lang=\"ko-KR\"/></a:defPPr><a:lvl1pPr marL=\"0\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl1pPr><a:lvl2pPr marL=\"457200\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl2pPr><a:lvl3pPr marL=\"914400\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl3pPr><a:lvl4pPr marL=\"1371600\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl4pPr><a:lvl5pPr marL=\"1828800\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl5pPr><a:lvl6pPr marL=\"2286000\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl6pPr><a:lvl7pPr marL=\"2743200\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl7pPr><a:lvl8pPr marL=\"3200400\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl8pPr><a:lvl9pPr marL=\"3657600\" algn=\"l\" defTabSz=\"914400\" rtl=\"0\" eaLnBrk=\"1\" latinLnBrk=\"0\" hangingPunct=\"1\"><a:defRPr sz=\"1800\" kern=\"1200\"><a:solidFill><a:schemeClr val=\"tx1\"/></a:solidFill><a:latin typeface=\"+mn-lt\"/><a:ea typeface=\"+mn-ea\"/><a:cs typeface=\"+mn-cs\"/></a:defRPr></a:lvl9pPr></p:defaultTextStyle><p:extLst><p:ext uri=\"{EFAFB233-063F-42B5-8137-9DF3F51BA10A}\"><p15:sldGuideLst xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\"><p15:guide id=\"1\" pos=\"6264\" userDrawn=\"1\"><p15:clr><a:srgbClr val=\"A4A3A4\"/></p15:clr></p15:guide><p15:guide id=\"2\" orient=\"horz\" pos=\"360\" userDrawn=\"1\"><p15:clr><a:srgbClr val=\"A4A3A4\"/></p15:clr></p15:guide></p15:sldGuideLst></p:ext><p:ext uri=\"{2D200454-40CA-4A62-9FC3-DE9A4176ACB9}\"><p15:notesGuideLst xmlns:p15=\"http://schemas.microsoft.com/office/powerpoint/2012/main\"/></p:ext></p:extLst></p:presentation>"
+    }
+  ],
+  "exact_duplicate_loose_files": [
+    [
+      "docs/1.홈페이지 제작관련/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/견적요청양식/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/관리주체의 의무사항/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/기계설비개요/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/성능점검/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/desktop.ini",
+      "docs/1.홈페이지 제작관련/내부내용자료/추가발송본/desktop.ini",
+      "docs/1.홈페이지 제작관련/홈페이지 수정자료/desktop.ini"
+    ],
+    [
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진3.png",
+      "docs/1.홈페이지 제작관련/내부내용자료/장비사진/장비사진4.png"
+    ]
+  ]
+}
