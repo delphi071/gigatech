@@ -1,4 +1,6 @@
-import Link from "next/link";
+import { ArrowRight, Crosshair } from "@/components/DesignIcons";
+import { ContentHeading, ServiceContact } from "@/components/EditorialContent";
+import styles from "@/components/EditorialContent.module.css";
 import PageBanner from "@/components/PageBanner";
 
 export const metadata = { title: "기계설비 유지관리점검" };
@@ -22,29 +24,43 @@ export default function MaintenancePage() {
   return (
     <>
       <PageBanner breadcrumb="주요업무" title="기계설비 유지관리점검" />
-      <section className="section">
-        <div className="container-x max-w-4xl">
-          <p className="text-lg text-slate-700">
-            기가테크는 성능점검과 함께 <b>기계설비 유지관리점검</b>을 대행합니다.
-          </p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-3">
-            {ITEMS.map((i) => (
-              <div key={i.title} className="card">
-                <h3 className="font-bold text-brand">{i.title}</h3>
-                <p className="mt-2 text-sm text-slate-600">{i.desc}</p>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-xs text-slate-400">
-            ※ 실제 제공 범위·주기·계약 형태는 상담을 통해 안내드립니다.
-          </p>
-          <div className="mt-10 flex justify-center">
-            <Link href="/contact/customer" className="btn-primary">
-              상담 문의하기
-            </Link>
-          </div>
+      <div className={styles.page}>
+        <div className="container-x">
+          <section className={styles.maintenanceLead} aria-labelledby="maintenance-intro">
+            <div>
+              <span className="eyebrow">MAINTENANCE & CARE</span>
+              <h2 id="maintenance-intro">정기적인 점검,<br /><span>꾸준한 설비 관리.</span></h2>
+              <p className={styles.copy}>기가테크는 성능점검과 함께 <strong>기계설비 유지관리점검</strong>을 대행합니다.</p>
+            </div>
+            <nav className={styles.maintenanceSummary} aria-label="유지관리점검 서비스 안내">
+              <div className={styles.summaryHeader} aria-hidden="true"><span>GIGATECH / MAINTENANCE</span><Crosshair width="32" height="32" /></div>
+              <ol>
+                {ITEMS.map((item, index) => (
+                  <li key={item.title}>
+                    <a href={`#maintenance-service-${index + 1}`}><span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>{item.title}<ArrowRight width="21" height="21" /></a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          </section>
+
+          <section aria-labelledby="services-heading">
+            <ContentHeading number="01" title="유지관리점검 서비스" id="services-heading" />
+            <ol className={styles.services}>
+              {ITEMS.map((item, index) => (
+                <li key={item.title} id={`maintenance-service-${index + 1}`}>
+                  <span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.desc}</p>
+                </li>
+              ))}
+            </ol>
+            <p className={styles.note}>※ 실제 제공 범위·주기·계약 형태는 상담을 통해 안내드립니다.</p>
+          </section>
+
+          <ServiceContact title="우리 건물에 필요한 관리를 상담하세요." href="/contact/customer" label="상담 문의하기" />
         </div>
-      </section>
+      </div>
     </>
   );
 }

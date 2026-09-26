@@ -25,3 +25,6 @@ next-env.d.ts
 
 # TS build cache
 *.tsbuildinfo
+
+# temp / review artifacts
+.tmp/

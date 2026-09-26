@@ -1,32 +1,18 @@
 import PageBanner from "@/components/PageBanner";
+import { Crosshair } from "@/components/DesignIcons";
 
 export const metadata = { title: "인증서" };
 
 export default function CertificatePage() {
   return (
     <>
-      <PageBanner breadcrumb="회사소개" title="인증서" />
-      <section className="section">
-        <div className="container-x">
-          <p className="max-w-2xl text-slate-700">
-            기가테크는 기계설비 성능점검 업무 수행에 필요한 자격과 등록을 갖추고
-            있습니다.
-          </p>
-          <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <div
-                key={i}
-                className="flex aspect-[3/4] items-center justify-center rounded-lg border-2 border-dashed border-slate-300 bg-slate-50 text-sm text-slate-400"
-              >
-                준비중
-              </div>
-            ))}
-          </div>
-          <p className="mt-8 text-sm text-slate-400">
-            ※ 인증서·등록증 원본은 자료 수령 후 게시됩니다.
-          </p>
+      <PageBanner breadcrumb="회사소개" title="신뢰의 근거를 담습니다" description="기가테크의 인증 및 등록 자료를 안내합니다." />
+      <section className="section"><div className="container-x">
+        <div className="certificate-empty">
+          <div className="certificate-illustration" aria-hidden="true"><Crosshair /><span /><span /><span /></div>
+          <div><span className="eyebrow">CERTIFICATES & REGISTRATION</span><h2>인증 자료를 준비하고 있습니다.</h2><p>인증서·등록증 원본을 확인한 후 이곳에 게시하겠습니다. 관련 내용은 담당자에게 문의해 주세요.</p></div>
         </div>
-      </section>
+      </div></section>
     </>
   );
 }

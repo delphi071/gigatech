@@ -1,25 +1,17 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { COMPANY } from "@/lib/site";
+import { ArrowUpRight, ChatIcon } from "./DesignIcons";
 
 export default function FloatingButtons() {
+  const pathname = usePathname();
+  if (pathname.startsWith("/admin") || pathname.startsWith("/contact/")) return null;
   return (
-    <div className="fixed bottom-5 right-5 z-30 flex flex-col gap-2">
-      <a
-        href={COMPANY.kakaoChat}
-        target="_blank"
-        rel="noreferrer"
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#fee500] text-xs font-bold text-[#3c1e1e] shadow-lg"
-        title="카카오 상담"
-      >
-        상담
-      </a>
-      <Link
-        href="/contact/quote"
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-brand text-xs font-bold text-white shadow-lg"
-        title="견적문의"
-      >
-        견적
-      </Link>
-    </div>
+    <aside className="quick-contact" aria-label="빠른 문의">
+      <a href={COMPANY.kakaoChat} target="_blank" rel="noreferrer" className="quick-chat"><ChatIcon /><span>카카오 상담</span></a>
+      <Link href="/contact/quote" className="quick-quote"><span>견적 문의</span><ArrowUpRight width="18" height="18" /></Link>
+    </aside>
   );
 }

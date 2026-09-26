@@ -1,0 +1,479 @@
+.section {
+  padding-top: 68px;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 42px;
+}
+
+.intro h2 {
+  margin-top: 18px;
+  font-size: clamp(28px, 3vw, 39px);
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.intro > p {
+  padding-bottom: 4px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.chart {
+  --connector: #a6b5ad;
+  --branch-height: 38px;
+  --department-gap: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background-color: #f7f8f4;
+  background-image: linear-gradient(#dce2dc40 1px, transparent 1px), linear-gradient(90deg, #dce2dc40 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.chartHeader,
+.chartFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 30px;
+  color: #63766d;
+  font-size: 10px;
+}
+
+.chartHeader {
+  min-height: 64px;
+  border-bottom: 1px solid var(--line);
+}
+
+.chartHeader > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Consolas, monospace;
+  letter-spacing: .07em;
+}
+
+.chartHeader svg {
+  color: var(--blue);
+}
+
+.diagram {
+  padding: 48px 30px 40px;
+}
+
+.leadership {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.executive {
+  position: relative;
+  display: flex;
+  width: 220px;
+  min-height: 110px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-top: 3px solid var(--lime);
+  background: var(--ink);
+  color: white;
+}
+
+.roleLabel {
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.5;
+  letter-spacing: .12em;
+}
+
+.executive .roleLabel {
+  color: #bacbc1;
+}
+
+.executive h3 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: .04em;
+}
+
+.executiveMark {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  width: 5px;
+  height: 5px;
+  background: var(--lime);
+}
+
+.audit {
+  position: absolute;
+  left: calc(50% + 158px);
+  top: 17px;
+  display: flex;
+  width: 142px;
+  min-height: 76px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 1px solid var(--connector);
+  background: #f7f8f4;
+}
+
+.audit::before {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: 49px;
+  border-top: 1px dashed var(--connector);
+  content: "";
+}
+
+.audit .roleLabel {
+  color: var(--muted);
+}
+
+.audit h3 {
+  font-size: 19px;
+  font-weight: 550;
+}
+
+.departments {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--department-gap);
+  margin-top: calc(var(--branch-height) * 2);
+  list-style: none;
+}
+
+.departments::before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  height: calc(var(--branch-height) * 2);
+  border-left: 1px solid var(--connector);
+  content: "";
+}
+
+.department {
+  position: relative;
+  min-width: 0;
+  border: 1px solid #d1dad2;
+  border-top: 2px solid var(--blue);
+  background: white;
+}
+
+.department::before {
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  width: calc(100% + var(--department-gap) + 2px);
+  height: var(--branch-height);
+  border-top: 1px solid var(--connector);
+  border-left: 1px solid var(--connector);
+  content: "";
+}
+
+.department:last-child::before {
+  width: 0;
+  border-top: 0;
+}
+
+.departmentHeading {
+  padding: 22px 20px 20px;
+}
+
+.departmentIndex {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--blue);
+  font-family: Consolas, monospace;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.departmentHeading h3 {
+  font-size: clamp(17px, 1.65vw, 21px);
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.team {
+  min-height: 104px;
+  margin: 0 20px;
+  padding: 17px 0 20px;
+  border-top: 1px solid var(--line);
+}
+
+.teamLabel {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.team p {
+  color: #41584c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.team p > span {
+  display: block;
+}
+
+.chartFooter {
+  min-height: 58px;
+  border-top: 1px solid var(--line);
+}
+
+.chartFooter > span:last-child {
+  font-family: Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: .07em;
+}
+
+@media (max-width: 1023px) {
+  .chart {
+    --department-gap: 10px;
+  }
+
+  .departmentHeading {
+    padding: 20px 12px 18px;
+  }
+
+  .team {
+    margin: 0 12px;
+  }
+}
+
+@media (max-width: 899px) {
+  .chart {
+    --rail-offset: 34px;
+    --department-gap: 14px;
+  }
+
+  .diagram {
+    padding-top: 32px;
+  }
+
+  .leadership {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
+    gap: 36px;
+    align-items: center;
+  }
+
+  .executive {
+    width: auto;
+  }
+
+  .executive::after {
+    position: absolute;
+    top: 100%;
+    left: var(--rail-offset);
+    height: 32px;
+    border-left: 1px solid var(--connector);
+    content: "";
+  }
+
+  .audit {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+
+  .audit::before {
+    width: 37px;
+  }
+
+  .departments {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    margin-top: 32px;
+    margin-left: var(--rail-offset);
+  }
+
+  .departments::before {
+    display: none;
+  }
+
+  .department {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    margin-left: 28px;
+    margin-bottom: var(--department-gap);
+    border-top: 1px solid #d1dad2;
+    border-left: 2px solid var(--blue);
+  }
+
+  .department::before,
+  .department:last-child::before {
+    top: 50%;
+    bottom: auto;
+    left: -30px;
+    width: 28px;
+    height: 0;
+    border-top: 1px solid var(--connector);
+    border-left: 0;
+  }
+
+  .department::after {
+    position: absolute;
+    top: -1px;
+    left: -30px;
+    height: calc(100% + var(--department-gap) + 2px);
+    border-left: 1px solid var(--connector);
+    content: "";
+  }
+
+  .department:last-child {
+    margin-bottom: 0;
+  }
+
+  .department:last-child::after {
+    height: calc(50% + 1px);
+  }
+
+  .departmentHeading {
+    align-self: center;
+    padding: 22px;
+  }
+
+  .departmentIndex {
+    margin-bottom: 12px;
+  }
+
+  .departmentHeading h3 {
+    font-size: 20px;
+  }
+
+  .team {
+    display: flex;
+    min-height: 72px;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 18px 0;
+    padding: 0 22px;
+    border-top: 0;
+    border-left: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 599px) {
+  .section {
+    padding-top: 42px;
+  }
+
+  .intro {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+
+  .intro h2 {
+    margin-top: 14px;
+    font-size: 29px;
+  }
+
+  .intro > p {
+    font-size: 12px;
+  }
+
+  .chart {
+    --rail-offset: 13px;
+  }
+
+  .chartHeader,
+  .chartFooter {
+    margin: 0 18px;
+    font-size: 9px;
+  }
+
+  .chartHeader {
+    min-height: 56px;
+  }
+
+  .chartHeader > span:first-child {
+    gap: 8px;
+    font-size: 8px;
+    letter-spacing: .02em;
+  }
+
+  .diagram {
+    padding: 28px 18px;
+  }
+
+  .leadership {
+    gap: 26px;
+  }
+
+  .executive {
+    min-height: 96px;
+  }
+
+  .executive h3 {
+    font-size: 23px;
+  }
+
+  .audit {
+    min-height: 68px;
+  }
+
+  .audit::before {
+    width: 27px;
+  }
+
+  .department {
+    margin-left: 19px;
+  }
+
+  .department::before,
+  .department:last-child::before {
+    left: -21px;
+    width: 19px;
+  }
+
+  .department::after {
+    left: -21px;
+  }
+
+  .departmentHeading {
+    padding: 18px 12px;
+  }
+
+  .departmentHeading h3 {
+    font-size: 16px;
+  }
+
+  .team {
+    min-height: 64px;
+    margin: 14px 0;
+    padding: 0 12px;
+  }
+
+  .team p {
+    font-size: 12px;
+  }
+
+  .chartFooter {
+    min-height: 50px;
+  }
+
+  .chartFooter > span:last-child {
+    display: none;
+  }
+}

@@ -1,42 +1,8 @@
 import PageBanner from "@/components/PageBanner";
-import { EQUIPMENT } from "@/lib/site";
+import EquipmentCatalog from "@/components/EquipmentCatalog";
 
 export const metadata = { title: "점검장비" };
 
 export default function EquipmentPage() {
-  return (
-    <>
-      <PageBanner
-        breadcrumb="장비보유현황"
-        title="점검장비"
-        description="기가테크는 정밀 성능점검을 위한 다양한 측정·진단 장비를 보유하고 있습니다."
-      />
-      <section className="section">
-        <div className="container-x">
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {EQUIPMENT.map((name, i) => (
-              <div
-                key={name}
-                className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:border-brand/40 hover:shadow-md"
-              >
-                <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-lg bg-white">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`/equipment/eq${String(i + 1).padStart(2, "0")}.png`}
-                    alt={name}
-                    className="h-full w-full object-contain"
-                    loading="lazy"
-                  />
-                </div>
-                <p className="mt-3 text-sm font-medium text-slate-700">{name}</p>
-              </div>
-            ))}
-          </div>
-          <p className="mt-8 text-sm text-slate-400">
-            ※ 실제 보유 모델·수량·교정 정보는 자료 수령 후 갱신됩니다.
-          </p>
-        </div>
-      </section>
-    </>
-  );
+  return <><PageBanner breadcrumb="장비보유현황" title="정밀함을 만드는 도구" description="작은 변화까지 읽어내는 측정·진단 장비. 기가테크의 점검장비를 만나보세요." /><section className="section"><div className="container-x"><EquipmentCatalog /></div></section></>;
 }

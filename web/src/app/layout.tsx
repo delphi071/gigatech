@@ -23,8 +23,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="flex min-h-screen flex-col">
+        <a href="#main-content" className="skip-link">본문 바로가기</a>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1" tabIndex={-1}>{children}</main>
         <Footer />
         <FloatingButtons />
       </body>

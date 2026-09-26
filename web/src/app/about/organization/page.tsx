@@ -1,4 +1,6 @@
 import PageBanner from "@/components/PageBanner";
+import { Crosshair } from "@/components/DesignIcons";
+import styles from "./organization.module.css";
 
 export const metadata = { title: "조직도" };
 
@@ -14,43 +16,57 @@ export default function OrganizationPage() {
   return (
     <>
       <PageBanner breadcrumb="회사소개" title="조직도" />
-      <section className="section">
-        <div className="container-x max-w-4xl">
-          {/* 대표 */}
-          <div className="flex justify-center">
-            <div className="relative rounded-lg border-2 border-transparent bg-brand px-5 py-3 text-center font-bold text-white sm:px-10 sm:py-4">
-              대표
-              {/* 대표–감사 연결선 (다른 라인과 동일하게: 연한 색 + 양쪽 간격) */}
-              <span className="absolute left-full top-1/2 ml-2 h-px w-5 -translate-y-1/2 bg-slate-300 sm:ml-3 sm:w-10" />
-              <span className="absolute left-full top-1/2 ml-8 flex -translate-y-1/2 items-center justify-center whitespace-nowrap rounded-lg border-2 border-brand bg-brand-light px-5 py-3 font-bold text-brand sm:ml-16 sm:px-10 sm:py-4">
-                감사
-              </span>
+      <section className={`section ${styles.section}`} aria-labelledby="organization-heading">
+        <div className="container-x">
+          <div className={styles.intro}>
+            <div>
+              <span className="eyebrow">OUR ORGANIZATION</span>
+              <h2 id="organization-heading">각자의 전문성,<br />하나의 기가테크.</h2>
             </div>
+            <p>경영부터 현장 점검까지,<br />각 분야의 전문성을 하나로 연결합니다.</p>
           </div>
 
-          <div className="mx-auto my-4 h-8 w-px bg-slate-300" />
+          <div className={styles.chart}>
+            <div className={styles.chartHeader} aria-hidden="true">
+              <span><Crosshair width="17" height="17" />GIGATECH / ORGANIZATION</span>
+              <span>5개 부서</span>
+            </div>
 
-          {/* 부서 */}
-          <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {DEPARTMENTS.map((d) => (
-              <div key={d.name} className="text-center">
-                <div className="rounded-lg border-2 border-brand bg-brand-light px-3 py-3 font-bold text-brand">
-                  {d.name}
+            <div className={styles.diagram}>
+              <p className="sr-only">대표 산하에 경영지원실, 성능점검실, 기술지원실, 영업지원실, 인사관리실이 있으며, 감사는 대표 옆에 별도로 표시됩니다.</p>
+              <div className={styles.leadership}>
+                <div className={styles.executive}>
+                  <span className={styles.roleLabel} aria-hidden="true">GIGATECH</span>
+                  <h3>대표</h3>
+                  <span className={styles.executiveMark} aria-hidden="true" />
                 </div>
-                <div className="mx-auto my-2 h-5 w-px bg-slate-300" />
-                <div className="flex min-h-[68px] items-center justify-center rounded-lg border border-slate-200 bg-white px-3 py-3 text-sm text-slate-600">
-                  <span>
-                    {d.team.map((line, idx) => (
-                      <span key={idx} className="block leading-snug">
-                        {line}
-                      </span>
-                    ))}
-                  </span>
+                <div className={styles.audit}>
+                  <span className={styles.roleLabel} aria-hidden="true">AUDIT</span>
+                  <h3>감사</h3>
                 </div>
               </div>
-            ))}
-          </div>
 
+              <ul className={styles.departments} aria-label="대표 산하 부서와 소속 팀">
+                {DEPARTMENTS.map((department, index) => (
+                  <li key={department.name} className={styles.department}>
+                    <div className={styles.departmentHeading}>
+                      <span className={styles.departmentIndex} aria-hidden="true">0{index + 1}</span>
+                      <h3>{department.name}</h3>
+                    </div>
+                    <div className={styles.team}>
+                      <span className={styles.teamLabel}>소속 팀</span>
+                      <p>{department.team.map((line) => <span key={line}>{line}</span>)}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className={styles.chartFooter} aria-hidden="true">
+              <span>각 분야의 전문성으로 함께하는 기가테크</span>
+              <span>GIGATECH ENGINEERING</span>
+            </div>
+          </div>
         </div>
       </section>
     </>

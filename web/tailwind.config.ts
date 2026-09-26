@@ -6,11 +6,11 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: "#1a4fd6",
-          dark: "#153fa8",
-          light: "#e8effd",
+          DEFAULT: "#2357e7",
+          dark: "#1844c0",
+          light: "#edf1fb",
         },
-        accent: "#ff6a13",
+        accent: "#d8f478",
       },
       fontFamily: {
         sans: [
@@ -25,7 +25,7 @@ const config: Config = {
         ],
       },
       maxWidth: {
-        content: "1200px",
+        content: "1320px",
       },
     },
   },

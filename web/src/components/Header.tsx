@@ -1,89 +1,76 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { NAV } from "@/lib/site";
+import { ArrowUpRight } from "./DesignIcons";
 
 export default function Header() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<number | null>(null);
+  const toggleRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => { setOpen(false); setActiveMenu(null); }, [pathname]);
+  useEffect(() => {
+    if (!open) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { setOpen(false); toggleRef.current?.focus(); }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="container-x flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center" aria-label="기가테크 홈">
+    <header className="site-header">
+      <div className="container-x header-inner">
+        <Link href="/" className="brand-lockup" aria-label="기가테크 홈" onClick={() => setOpen(false)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="주식회사 기가테크 GIGATECH" className="h-7 w-auto sm:h-8" />
+          <img src="/logo.png" alt="GIGATECH" width="195" height="30" />
+          <span>기계설비 성능점검 · 유지관리</span>
         </Link>
-
-        {/* 데스크톱 메뉴 */}
-        <nav className="hidden items-center gap-1 lg:flex">
-          {NAV.map((group) => (
-            <div key={group.label} className="group relative">
-              <Link
-                href={group.href}
-                className="rounded-md px-4 py-2 text-sm font-semibold text-slate-700 hover:text-brand"
-              >
-                {group.label}
-              </Link>
-              <div className="invisible absolute left-0 top-full min-w-44 rounded-md border border-slate-200 bg-white py-2 opacity-0 shadow-lg transition group-hover:visible group-hover:opacity-100">
-                {group.children.map((c) => (
-                  <Link
-                    key={c.href}
-                    href={c.href}
-                    className="block px-4 py-2 text-sm text-slate-600 hover:bg-brand-light hover:text-brand"
-                  >
-                    {c.label}
+        <nav className="desktop-nav" aria-label="주 메뉴">
+          {NAV.map((group, index) => (
+            <div key={group.label} className="nav-group"
+              onPointerEnter={event => { if (event.pointerType === "mouse") setActiveMenu(index); }}
+              onPointerLeave={event => { if (event.pointerType === "mouse" && !event.currentTarget.contains(document.activeElement)) setActiveMenu(null); }}
+              onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setActiveMenu(null); }}
+              onKeyDown={event => { if (event.key === "Escape") { setActiveMenu(null); event.currentTarget.querySelector("button")?.focus(); } }}>
+              <button type="button" className={"nav-link " + (group.children.some(c => pathname === c.href) ? "is-active" : "")}
+                aria-expanded={activeMenu === index} aria-controls={"desktop-menu-" + index}
+                onClick={() => setActiveMenu(activeMenu === index ? null : index)}>
+                {group.label}<span className="nav-chevron" aria-hidden="true">⌄</span>
+              </button>
+              <div id={"desktop-menu-" + index} className="nav-dropdown" hidden={activeMenu !== index}>
+                <span className="nav-dropdown-index">0{index + 1} / {group.label}</span>
+                {group.children.map(child => (
+                  <Link key={child.href} href={child.href} aria-current={pathname === child.href ? "page" : undefined} onClick={() => setActiveMenu(null)}>
+                    {child.label}<ArrowUpRight width="14" height="14" />
                   </Link>
                 ))}
               </div>
             </div>
           ))}
         </nav>
-
-        <div className="hidden lg:block">
-          <Link href="/contact/quote" className="btn-primary">
-            견적문의
-          </Link>
-        </div>
-
-        {/* 모바일 토글 */}
-        <button
-          className="lg:hidden"
-          aria-label="메뉴 열기"
-          onClick={() => setOpen((v) => !v)}
-        >
-          <span className="block h-0.5 w-6 bg-slate-800" />
-          <span className="mt-1.5 block h-0.5 w-6 bg-slate-800" />
-          <span className="mt-1.5 block h-0.5 w-6 bg-slate-800" />
+        <Link href="/contact/quote" className="header-cta">견적문의<ArrowUpRight width="18" height="18" /></Link>
+        <button ref={toggleRef} type="button" className={"menu-toggle " + (open ? "is-open" : "")} aria-label={open ? "메뉴 닫기" : "메뉴 열기"} aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>
+          <span /><span />
         </button>
       </div>
-
-      {/* 모바일 메뉴 */}
-      {open && (
-        <nav className="border-t border-slate-200 bg-white lg:hidden">
-          <div className="container-x py-3">
-            {NAV.map((group) => (
-              <div key={group.label} className="py-2">
-                <p className="px-1 py-1 text-sm font-bold text-slate-900">
-                  {group.label}
-                </p>
-                <div className="flex flex-col">
-                  {group.children.map((c) => (
-                    <Link
-                      key={c.href}
-                      href={c.href}
-                      onClick={() => setOpen(false)}
-                      className="rounded px-3 py-2 text-sm text-slate-600 hover:bg-brand-light"
-                    >
-                      {c.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </nav>
-      )}
+      <nav id="mobile-navigation" className="mobile-nav" aria-label="모바일 메뉴" hidden={!open}>
+        <div className="container-x mobile-nav-inner">
+          {NAV.map((group, index) => (
+            <div key={group.label} className="mobile-nav-group">
+              <p><span>0{index + 1}</span>{group.label}</p>
+              <div>{group.children.map(child => (
+                <Link key={child.href} href={child.href} aria-current={pathname === child.href ? "page" : undefined} onClick={() => setOpen(false)}>{child.label}<ArrowUpRight width="15" height="15" /></Link>
+              ))}</div>
+            </div>
+          ))}
+          <Link href="/contact/quote" className="btn-primary mobile-menu-cta" onClick={() => setOpen(false)}>견적문의<ArrowUpRight width="18" height="18" /></Link>
+        </div>
+      </nav>
     </header>
   );
 }
