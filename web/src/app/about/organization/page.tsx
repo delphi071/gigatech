@@ -18,11 +18,11 @@ export default function OrganizationPage() {
         <div className="container-x max-w-4xl">
           {/* 대표 */}
           <div className="flex justify-center">
-            <div className="relative rounded-lg border-2 border-transparent bg-brand px-10 py-4 text-center font-bold text-white">
+            <div className="relative rounded-lg border-2 border-transparent bg-brand px-5 py-3 text-center font-bold text-white sm:px-10 sm:py-4">
               대표
               {/* 대표–감사 연결선 (다른 라인과 동일하게: 연한 색 + 양쪽 간격) */}
-              <span className="absolute left-full top-1/2 ml-3 h-px w-10 -translate-y-1/2 bg-slate-300" />
-              <span className="absolute left-full top-1/2 ml-16 flex -translate-y-1/2 items-center justify-center whitespace-nowrap rounded-lg border-2 border-brand bg-brand-light px-10 py-4 font-bold text-brand">
+              <span className="absolute left-full top-1/2 ml-2 h-px w-5 -translate-y-1/2 bg-slate-300 sm:ml-3 sm:w-10" />
+              <span className="absolute left-full top-1/2 ml-8 flex -translate-y-1/2 items-center justify-center whitespace-nowrap rounded-lg border-2 border-brand bg-brand-light px-5 py-3 font-bold text-brand sm:ml-16 sm:px-10 sm:py-4">
                 감사
               </span>
             </div>

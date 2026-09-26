@@ -22,3 +22,6 @@ desktop.ini
 *.log
 .DS_Store
 next-env.d.ts
+
+# TS build cache
+*.tsbuildinfo

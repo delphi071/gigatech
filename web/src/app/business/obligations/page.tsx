@@ -56,8 +56,9 @@ export default function ObligationsPage() {
               세대수·연면적에 따라 유지관리자를 선임하여 현장에 상주시켜야
               합니다.
             </p>
-            <div className="mt-4 overflow-x-auto">
-              <table className="w-full min-w-[640px] border-collapse text-sm">
+            {/* 데스크톱: 표 */}
+            <div className="mt-4 hidden md:block">
+              <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr className="bg-brand text-white">
                     <th className="border border-slate-200 px-3 py-2 text-left">대상 건축물</th>
@@ -77,6 +78,28 @@ export default function ObligationsPage() {
                   ))}
                 </tbody>
               </table>
+            </div>
+            {/* 모바일: 카드형 */}
+            <div className="mt-4 space-y-3 md:hidden">
+              {SELECTION.map((r) => (
+                <div key={r[0]} className="rounded-lg border border-slate-200 p-4">
+                  <p className="text-sm font-medium text-slate-800">{r[0]}</p>
+                  <div className="mt-3 grid grid-cols-3 gap-2 text-center text-sm">
+                    <div>
+                      <p className="text-xs text-slate-400">자격</p>
+                      <p className="mt-0.5 text-slate-700">{r[1]}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-400">인원</p>
+                      <p className="mt-0.5 text-slate-700">{r[2]}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-400">적용시기</p>
+                      <p className="mt-0.5 text-slate-700">{r[3]}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
             <p className="mt-3 text-sm text-slate-500">
               기계설비법 시행일(2020.4.18) 이전부터 계속 근무한 유지관리자는
