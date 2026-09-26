@@ -14,18 +14,23 @@ export default function EquipmentPage() {
       <section className="section">
         <div className="container-x">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {EQUIPMENT.map((e) => (
-              <div key={e} className="card flex flex-col items-center text-center">
-                <div className="flex aspect-square w-full items-center justify-center rounded-lg bg-slate-100 text-xs text-slate-400">
-                  이미지
+            {EQUIPMENT.map((name, i) => (
+              <div key={name} className="card flex flex-col items-center text-center">
+                <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-lg bg-white">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/equipment/eq${String(i + 1).padStart(2, "0")}.png`}
+                    alt={name}
+                    className="h-full w-full object-contain p-2"
+                    loading="lazy"
+                  />
                 </div>
-                <p className="mt-3 text-sm font-medium text-slate-700">{e}</p>
+                <p className="mt-3 text-sm font-medium text-slate-700">{name}</p>
               </div>
             ))}
           </div>
           <p className="mt-8 text-sm text-slate-400">
-            ※ 실제 보유 모델·수량·교정 정보는 자료 수령 후 갱신됩니다. (장비
-            사진은 준비되는 대로 교체 예정)
+            ※ 실제 보유 모델·수량·교정 정보는 자료 수령 후 갱신됩니다.
           </p>
         </div>
       </section>
