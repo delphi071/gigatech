@@ -32,26 +32,38 @@ export default function Home() {
     <>
       {/* HERO */}
       <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
-        <div className="container-x py-24 sm:py-32">
-          <p className="mb-3 text-sm font-semibold text-white/80">
-            {COMPANY.slogan}
-          </p>
-          <h1 className="max-w-3xl text-4xl font-extrabold leading-tight sm:text-5xl">
-            기계설비 성능점검,
-            <br />
-            {COMPANY.name}가 정확하게 대행합니다.
-          </h1>
-          <p className="mt-5 max-w-2xl text-white/85">
-            전문 인력과 검증된 점검 장비를 바탕으로 건축물의 안전과 에너지
-            효율을 지킵니다.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/contact/customer" className="btn bg-white text-brand hover:bg-slate-100">
-              성능점검 문의하기
-            </Link>
-            <Link href="/contact/quote" className="btn border border-white/60 text-white hover:bg-white/10">
-              견적 요청하기
-            </Link>
+        <div className="container-x grid items-center gap-10 py-20 sm:py-24 lg:grid-cols-2">
+          <div>
+            <p className="mb-3 text-sm font-semibold text-white/80">
+              {COMPANY.slogan}
+            </p>
+            <h1 className="text-4xl font-extrabold leading-tight sm:text-5xl">
+              기계설비 성능점검,
+              <br />
+              <span className="whitespace-nowrap">{COMPANY.name}가 정확하게</span>
+              <br />
+              대행합니다.
+            </h1>
+            <p className="mt-5 max-w-xl text-white/85">
+              전문 인력과 검증된 점검 장비를 바탕으로 건축물의 안전과 에너지
+              효율을 지킵니다.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link href="/contact/customer" className="btn bg-white text-brand hover:bg-slate-100">
+                성능점검 문의하기
+              </Link>
+              <Link href="/contact/quote" className="btn border border-white/60 text-white hover:bg-white/10">
+                견적 요청하기
+              </Link>
+            </div>
+          </div>
+          <div className="hidden lg:flex lg:justify-end">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/business/inspection.jpg"
+              alt="기계설비 성능점검 현장"
+              className="h-auto w-full max-w-md rounded-2xl object-contain shadow-2xl ring-1 ring-white/20"
+            />
           </div>
         </div>
       </section>

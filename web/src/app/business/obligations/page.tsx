@@ -118,9 +118,6 @@ export default function ObligationsPage() {
                 </ul>
               </div>
             </div>
-            <p className="mt-4 text-xs text-slate-400">
-              ※ 법령 수치·조항은 게시 전 현행 시행본 기준으로 재확인이 필요합니다.
-            </p>
           </div>
         </div>
       </section>

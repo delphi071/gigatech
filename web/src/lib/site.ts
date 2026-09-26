@@ -9,6 +9,10 @@ export const COMPANY = {
   kakaoChannel: "http://pf.kakao.com/_jCNyxj",
   kakaoChat: "http://pf.kakao.com/_jCNyxj/chat",
   slogan: "기계설비 성능점검, 믿고 맡길 수 있는 기업",
+  // 확인필요: 회사에서 확정값 수령 후 채우면 푸터에 자동 표시됩니다.
+  ceo: "", // 대표자명
+  address: "", // 주소
+  bizNo: "", // 사업자등록번호
 };
 
 // 상단 내비게이션 메뉴 (확정 4개)

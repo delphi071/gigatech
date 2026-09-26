@@ -15,13 +15,16 @@ export default function EquipmentPage() {
         <div className="container-x">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
             {EQUIPMENT.map((name, i) => (
-              <div key={name} className="card flex flex-col items-center text-center">
+              <div
+                key={name}
+                className="flex flex-col items-center rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:border-brand/40 hover:shadow-md"
+              >
                 <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-lg bg-white">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={`/equipment/eq${String(i + 1).padStart(2, "0")}.png`}
                     alt={name}
-                    className="h-full w-full object-contain p-2"
+                    className="h-full w-full object-contain"
                     loading="lazy"
                   />
                 </div>

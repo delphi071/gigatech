@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { COMPANY, NAV } from "@/lib/site";
+import { NAV } from "@/lib/site";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -10,8 +10,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
-        <Link href="/" className="text-xl font-extrabold tracking-tight text-brand">
-          {COMPANY.brand}
+        <Link href="/" className="flex items-center" aria-label="기가테크 홈">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="주식회사 기가테크 GIGATECH" className="h-7 w-auto sm:h-8" />
         </Link>
 
         {/* 데스크톱 메뉴 */}
