@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { isAdminAuthed } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import LogoutButton from "./LogoutButton";
+import PasswordChange from "./PasswordChange";
 
 export const metadata = { title: "관리자" };
 export const dynamic = "force-dynamic";
@@ -29,7 +30,10 @@ export default async function AdminPage({
     <div className="container-x py-10">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold text-slate-900">접수 관리</h1>
-        <LogoutButton />
+        <div className="flex items-center gap-2">
+          <PasswordChange />
+          <LogoutButton />
+        </div>
       </div>
 
       <div className="mt-6 flex gap-2">

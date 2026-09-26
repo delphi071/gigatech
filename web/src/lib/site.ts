@@ -45,7 +45,7 @@ export const NAV: MenuGroup[] = [
     children: [{ label: "점검장비", href: "/equipment" }],
   },
   {
-    label: "문의",
+    label: "문의하기",
     href: "/contact/customer",
     children: [
       { label: "고객문의", href: "/contact/customer" },

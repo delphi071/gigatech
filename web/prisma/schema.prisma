@@ -8,6 +8,13 @@ datasource db {
   directUrl = env("DATABASE_URL_UNPOOLED")
 }
 
+/// 설정(관리자 비밀번호 해시 등) key-value 저장
+model Setting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
 /// 고객문의
 model Inquiry {
   id          Int      @id @default(autoincrement())

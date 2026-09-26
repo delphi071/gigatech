@@ -122,7 +122,7 @@ export default function Home() {
             {FACILITY_TYPES.map((f) => (
               <div
                 key={f}
-                className="rounded-lg border border-slate-200 bg-white px-4 py-5 text-center text-sm font-medium text-slate-700"
+                className="cursor-default rounded-lg border border-slate-200 bg-white px-4 py-5 text-center text-sm font-medium text-slate-700 transition-colors hover:border-brand/40 hover:bg-brand-light"
               >
                 {f}
               </div>
