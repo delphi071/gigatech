@@ -120,7 +120,6 @@
 .contact > a { flex-shrink: 0; }
 .policyIntro { padding: 30px 34px; border-top: 2px solid var(--blue); background: var(--paper); }
 .policyHeading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 20px; }
-.draft { padding: 4px 11px; border: 1px solid #bfccba; font-size: 11px; color: #5c6d54; }
 .policyIntro .copy { font-size: 14px; line-height: 2; }
 .policySections { margin-top: 10px; }
 .policySection { padding: 32px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 16px; }

@@ -1,18 +1,19 @@
-// 회사·연락 정보 (docs 요청사항.txt 기준)
+// 회사·연락 정보 (docs/2.추가자료/홈페이지 회사정보 및 요청사항.txt 기준)
 export const COMPANY = {
   name: "주식회사 기가테크",
   brand: "GIGATECH",
   domain: "gigatech.kr",
-  tel: "02-6325-7500",
-  email: "gigatech23@daum.net",
+  tel: "032-710-1413",
+  salesTel: "010-8119-1413",
+  salesFax: "070-8250-1413",
+  email: "gigatec23@daum.net",
+  contractAssistantEmail: "csyceb@naver.com",
+  contractManagerEmail: "asj6127@naver.com",
   privacyManager: "조성윤",
-  kakaoChannel: "http://pf.kakao.com/_jCNyxj",
-  kakaoChat: "http://pf.kakao.com/_jCNyxj/chat",
   slogan: "기계설비 성능점검, 믿고 맡길 수 있는 기업",
-  // 확인필요: 회사에서 확정값 수령 후 채우면 푸터에 자동 표시됩니다.
-  ceo: "", // 대표자명
-  address: "", // 주소
-  bizNo: "", // 사업자등록번호
+  ceo: "최승혜",
+  address: "경기도 부천시 송내대로 42번길 44 3층 301호",
+  bizNo: "696-86-02841",
 };
 
 // 상단 내비게이션 메뉴 (확정 4개)
@@ -50,7 +51,6 @@ export const NAV: MenuGroup[] = [
     children: [
       { label: "고객문의", href: "/contact/customer" },
       { label: "견적문의", href: "/contact/quote" },
-      { label: "카카오채널", href: "/contact/kakao" },
     ],
   },
 ];

@@ -20,10 +20,9 @@ export default function PrivacyPage() {
           ]} />
           <div className={styles.documentBody}>
             <div className={styles.policyIntro}>
-              <div className={styles.policyHeading}><span className="eyebrow">PRIVACY POLICY</span><span className={styles.draft}>초안</span></div>
+              <div className={styles.policyHeading}><span className="eyebrow">PRIVACY POLICY</span></div>
               <p className={styles.copy}>
                 {COMPANY.name}(이하 &lsquo;회사&rsquo;)는 이용자의 개인정보를 중요시하며, 관련 법령을 준수합니다.
-                아래 내용은 초안이며 정식 방침은 추후 확정·게시됩니다.
               </p>
             </div>
             <div className={styles.policySections}>

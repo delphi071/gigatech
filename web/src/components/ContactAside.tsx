@@ -1,5 +1,5 @@
 import { COMPANY } from "@/lib/site";
-import { ArrowUpRight, ChatIcon, Crosshair } from "./DesignIcons";
+import { ArrowUpRight, Crosshair } from "./DesignIcons";
 
 export default function ContactAside({ quote = false }: { quote?: boolean }) {
   return (
@@ -12,7 +12,6 @@ export default function ContactAside({ quote = false }: { quote?: boolean }) {
         <span>전화 상담</span><a href={"tel:" + COMPANY.tel}>{COMPANY.tel}<ArrowUpRight width="20" height="20" /></a>
         <span>이메일</span><a href={"mailto:" + COMPANY.email}>{COMPANY.email}<ArrowUpRight width="20" height="20" /></a>
       </div>
-      <a className="contact-kakao" href={COMPANY.kakaoChat} target="_blank" rel="noreferrer"><ChatIcon />카카오톡으로 상담하기<ArrowUpRight width="20" height="20" /></a>
     </aside>
   );
 }
